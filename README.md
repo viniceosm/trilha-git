@@ -143,3 +143,4 @@ $ git diff -staged
 ```git
 $ git diff 123abcd..848998
 ```
+- Os dois pontos (..) significa do commit inicial no caso **123abcd** até o commit **848998**.
