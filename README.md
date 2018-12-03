@@ -97,3 +97,8 @@ $ git push origin master
     $ git clone https://caminho-do-repositorio
   ```
   - Pode ser **http**, **https** e **ssh**.
+  
+## Ignorar arquivos
+  - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamdo .gitignore no diretório principal e colocar os nomes de arquivos e pastas dentro do mesmo.
+
+  
