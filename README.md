@@ -35,6 +35,7 @@ $ git config --global user.name
 ```git
 $ git config --global user.email
 ```
+
 ## Criando um repositório
   - Iniciando o Git em um diretório já existente, transformando em um repositório, execute o comando em seu terminal:
 ```git
@@ -95,17 +96,18 @@ $ git log --oneline
 $ git log --stat
 ```
 
-
 ## Configurando um repositório remoto
   - Para adicionar um repositório remoto, execute o comando em seu terminal: 
 ```git
 $ git remote add origin https://caminho-do-repositorio-remoto
 ```
+
 ## Enviando as alterações pro repositório remoto
  - Enviando os commits pro repositório remoto
 ```git
 $ git push origin master 
 ```
+
 ## Obtendo um repositório já existente
   - Para obter o código do repositório desejado, execute o comando em seu terminal:
 ```git
@@ -149,6 +151,7 @@ $ git diff 123abcd..848998
 ```git
 $ git diff 123abcd~2
 ```
+
 ## Removendo um arquivo pelo git
 - Removendo um arquivo pelo git, pelo comando:
 ```git
