@@ -126,3 +126,11 @@ ou
 ```git
 $ git commit -am "Descrição do commit"
 ```
+
+## Verificando alterações
+
+- Conseguimos ver as alterações feitas com o comando:
+```git
+$ git diff
+```
+  
