@@ -52,3 +52,9 @@
     ```
   - Temos o **git add .** ele permite rastrear todos os arquivos modificados e prepará-los para commitar.
   
+## Gravando e criando um commit
+  - Para criar um commit e gravar as mudanças no repositório, execute o comando em seu terminal:
+  ```git
+	  git commit -m "Aqui vai a explicação da sua alteração"
+  ```
+  
