@@ -106,9 +106,9 @@ $ git clone https://caminho-do-repositorio
   - Podemos fazer **git add** com **git commit** em apenas um comando dessa forma:
 ```git
 $ git commit -a -m "Descrição do commit"
-
+```
 ou
-
+```git
 $ git commit -am "Descrição do commit"
 ```
   
