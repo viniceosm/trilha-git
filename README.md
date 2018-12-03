@@ -10,7 +10,7 @@
   
 **Mac**
   - Download da ultima versão disponível [aqui](https://git-scm.com/download/mac).
-  - Utiliza o terminal padrão do **MAC**.
+  - Utiliza o terminal padrão do **Mac**.
 
 **Linux**
 - Distribuição baseada em **Debian**, execute o comando em seu terminal:
@@ -18,7 +18,7 @@
     $ sudo apt-get install git
   ```
 - [Outras distribuições Linux](http://git-scm.com/download/linux)
-- Utiliza o terminal padrão do Linux.
+- Utiliza o terminal padrão do **Linux**.
 
 ## Configuração inicial
 
