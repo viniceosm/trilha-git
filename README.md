@@ -76,10 +76,15 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
   - Não faça grandes explicações em comentários de commits.
   - Sempre vincule cada commit a um issue.
 
-## Verificando alterações log de commits
+## Verificando alterações, log de commits
   - Para ver o log das alterações no repositório, execute o comando em seu terminal:
 ```git
 $ git log
+```
+  - Limitando a visualização de logs, mostrando os ultimos dois commits.
+
+```git
+$ git log -n 2  
 ```
 ## Configurando um repositório remoto
   - Para adicionar um repositório remoto, execute o comando em seu terminal: 
