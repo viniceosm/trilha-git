@@ -100,5 +100,6 @@ $ git push origin master
   
 ## Ignorar arquivos
   - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamdo .gitignore no diretório principal e colocar os nomes de arquivos e pastas dentro do mesmo.
+  - [Exemplos de .gitignore](https://github.com/github/gitignore)
 
   
