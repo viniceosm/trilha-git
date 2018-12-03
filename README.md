@@ -133,4 +133,5 @@ $ git commit -am "Descrição do commit"
 ```git
 $ git diff
 ```
+- Apenas em programas que não foram rastreados através do **git add**.
   
