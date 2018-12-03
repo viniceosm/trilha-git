@@ -157,3 +157,4 @@ $ git diff 123abcd~2
 ```git
 $ git rm nome-do-arquivo
 ```
+- Essa ação remove por completo o arquivo.
