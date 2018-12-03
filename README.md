@@ -86,6 +86,10 @@ $ git log
 ```git
 $ git log -n 2  
 ```
+  - Trazendo um resumo reduzido dos commits:
+```git
+$ git log --oneline
+```
 ## Configurando um repositório remoto
   - Para adicionar um repositório remoto, execute o comando em seu terminal: 
 ```git
