@@ -45,3 +45,10 @@
     ```
   - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo. 
   
+## Adicionando o arquivo no rastreamento 
+  - Adicionando o arquivo no rastreamento e preparando ele para commitar.
+    ```git
+      git add nome-do-arquivo-alterado
+    ```
+  - Temos o **git add .** ele permite rastrear todos os arquivos modificados e prepará-los para commitar.
+  
