@@ -81,7 +81,7 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
 ```git
 $ git log
 ```
-  - Limitando a visualização de logs, mostrando os ultimos dois commits.
+  - Limitando a visualização de logs, mostrando os ultimos dois commits:
 
 ```git
 $ git log -n 2  
@@ -90,6 +90,12 @@ $ git log -n 2
 ```git
 $ git log --oneline
 ```
+- Mostrando resumo dos arquivos com o número de linhas adicionadas e removidas:
+```git
+$ git log --stat
+```
+
+
 ## Configurando um repositório remoto
   - Para adicionar um repositório remoto, execute o comando em seu terminal: 
 ```git
@@ -120,4 +126,3 @@ ou
 ```git
 $ git commit -am "Descrição do commit"
 ```
-  
