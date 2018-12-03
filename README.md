@@ -36,3 +36,4 @@
     ```git
       Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
     ```
+  - Essa mensagem informa que o inicializado um repositório git vazio.
