@@ -37,3 +37,11 @@
       Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
     ```
   - Essa mensagem informa que o inicializado um repositório git vazio.
+  
+## Verificando alterações
+  - Verificando a situação dos arquivos no repositório com o comando:
+    ```git
+      git status
+    ```
+  - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo. 
+  
