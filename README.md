@@ -96,4 +96,4 @@ $ git push origin master
   ```git
     $ git clone https://caminho-do-repositorio
   ```
-  - Pode ser http, https e ssh.
+  - Pode ser **http**, **https** e **ssh**.
