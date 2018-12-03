@@ -149,3 +149,8 @@ $ git diff 123abcd..848998
 ```git
 $ git diff 123abcd~2
 ```
+## Removendo um arquivo pelo git
+- Removendo um arquivo pelo git, pelo comando:
+```git
+$ git rm nome-do-arquivo
+```
