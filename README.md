@@ -18,3 +18,12 @@ Git é um sistema de controle versão de arquivos, com ele podemos desenvolver p
     $ sudo apt-get install git
   ```
 - [Outras distribuições Linux](http://git-scm.com/download/linux)
+- Utiliza o terminal padrão do Linux.
+
+## Configuração inicial
+
+É preciso informar para o **Git**, seu **nome** e **e-mail**, execute os comandos:
+  ```bash
+    $ git config --global user.name "MEU NOME VAI AQUI"
+    $ git config --global user.email "MEU E-MAIL VAI AQUI"
+  ```
