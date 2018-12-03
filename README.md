@@ -11,3 +11,10 @@ Git é um sistema de controle versão de arquivos, com ele podemos desenvolver p
 **Mac**
   - Download da ultima versão disponível [aqui](https://git-scm.com/download/mac).
   - Utiliza o terminal padrão do ***MAC***.
+
+**Linux**
+- Distribuição baseada em ***Debian***, execute o comando em seu terminal:
+  ```bash
+    $ sudo apt-get install git
+  ```
+- [Outras distribuições Linux](http://git-scm.com/download/linux)
