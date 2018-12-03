@@ -79,4 +79,9 @@ $ git remote add origin https://caminho-do-repositorio-remoto
 ```git
 $ git push origin master 
 ```
-
+## Obtendo um repositório já existente
+  - Para obter o código do repositório desejado, execute o comando em seu terminal:
+  ```git
+    git clone https://caminho-do-repositorio
+  ```
+  - Pode ser http, https e ssh.
