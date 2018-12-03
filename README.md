@@ -135,3 +135,7 @@ $ git diff
 ```
 - Apenas em programas que não foram rastreados através do **git add**.
   
+- Mostrando diferença dos arquivos na área de stage e a última versão de commit do arquivo:
+```git
+$ git diff -staged
+```
