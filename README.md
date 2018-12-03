@@ -15,7 +15,7 @@
 **Linux**
 - Distribuição baseada em **Debian**, execute o comando em seu terminal:
   ```bash
-    $ sudo apt-get install git
+    	$ sudo apt-get install git
   ```
 - [Outras distribuições Linux](http://git-scm.com/download/linux)
 - Utiliza o terminal padrão do **Linux**.
@@ -24,43 +24,42 @@
 
 É preciso informar para o **Git**, seu **nome** e **e-mail**, execute o comando em seu terminal:
   ```git
-    $ git config --global user.name "MEU NOME VAI AQUI"
-    $ git config --global user.email "MEU E-MAIL VAI AQUI"
+    	$ git config --global user.name "MEU NOME VAI AQUI"
+    	$ git config --global user.email "MEU E-MAIL VAI AQUI"
   ```
 ## Criando um repositório
   - Iniciando o Git em um diretório, transformando em um repositório, execute o comando em seu terminal:
     ```git
-      git init
+      	$ git init
     ```
   - Confirmação de sucesso da criação do repositório deve retornar uma mensagem dessa forma:
     ```git
-      Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
+      	Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
     ```
   - Essa mensagem informa que o inicializado um repositório git vazio.
   
 ## Verificando alterações
   - Verificando a situação dos arquivos no repositório com o comando:
     ```git
-      git status
+      	$ git status
     ```
   - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo. 
   
 ## Adicionando o arquivo no rastreamento 
   - Adicionando o arquivo no rastreamento e preparando ele para commitar.
     ```git
-      git add nome-do-arquivo-alterado
+    	$ git add nome-do-arquivo-alterado
     ```
   - Temos o **git add .** ele permite rastrear todos os arquivos modificados e prepará-los para commitar.
   
 ## Gravando e criando um commit
   - Para criar um commit e gravar as mudanças no repositório, execute o comando em seu terminal:
-  ```git
-	  git commit -m "Aqui vai a explicação da sua alteração"
-  ```
+    ```git
+	$ git commit -m "Aqui vai a explicação da sua alteração"
+    ```
   
 ## Boas praticas para escrever um commit
   - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
   - Informe uma explicação em alto nível com poucas palavras do que foi feito.
   - Não faça grandes explicações em comentários de commits.
   - Sempre vincule cada commit a um issue.
-  
