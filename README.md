@@ -139,3 +139,7 @@ $ git diff
 ```git
 $ git diff -staged
 ```
+- É possível ver o **diff** do commit pelo seu código, conforme exemplo:
+```git
+$ git diff 123abcd..848998
+```
