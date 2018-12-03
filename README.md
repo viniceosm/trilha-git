@@ -69,3 +69,8 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
 ```git
 $ git log
 ```
+## Configurando um repositório remoto
+  - Para adicionar um repositório remoto, execute o comando em seu terminal: 
+```git
+$ $git remote add origin https://caminho-do-repositorio-remoto
+```
