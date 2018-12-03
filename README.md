@@ -28,9 +28,13 @@ $ git config --global user.name "MEU NOME VAI AQUI"
 $ git config --global user.email "MEU E-MAIL VAI AQUI"
 ```
 ## Criando um repositório
-  - Iniciando o Git em um diretório, transformando em um repositório, execute o comando em seu terminal:
+  - Iniciando o Git em um diretório já existente, transformando em um repositório, execute o comando em seu terminal:
 ```git
 $ git init
+```
+  - Iniciando o Git em um diretório que não existe.
+```git
+$ git init nome-diretorio
 ```
   - Confirmação de sucesso da criação do repositório deve retornar uma mensagem dessa forma:
 ```git
@@ -82,6 +86,6 @@ $ git push origin master
 ## Obtendo um repositório já existente
   - Para obter o código do repositório desejado, execute o comando em seu terminal:
   ```git
-    git clone https://caminho-do-repositorio
+    $ git clone https://caminho-do-repositorio
   ```
   - Pode ser http, https e ssh.
