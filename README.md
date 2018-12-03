@@ -22,10 +22,18 @@
 
 ## Configuração inicial
 
-É preciso informar para o **Git**, seu **nome** e **e-mail**, execute o comando em seu terminal:
+- É preciso informar para o **Git**, seu **nome** e **e-mail**, execute o comando em seu terminal:
 ```git
 $ git config --global user.name "MEU NOME VAI AQUI"
 $ git config --global user.email "MEU E-MAIL VAI AQUI"
+```
+- Verificando qual **nome** está configurado no Git, execute o comando em seu terminal:
+```git
+$ git config --global user.name
+```
+- Verificando qual **e-mail** está configurado no Git, execute o comando em seu terminal:
+```git
+$ git config --global user.email
 ```
 ## Criando um repositório
   - Iniciando o Git em um diretório já existente, transformando em um repositório, execute o comando em seu terminal:
@@ -40,7 +48,7 @@ $ git init nome-diretorio
 ```git
 Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
 ```
-  - Essa mensagem informa que o inicializado um repositório git vazio.
+  - Essa mensagem informa que foi inicializado um repositório Git vazio.
   
 ## Verificando alterações
   - Verificando a situação dos arquivos no repositório com o comando:
