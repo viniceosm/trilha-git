@@ -23,7 +23,16 @@
 ## Configuração inicial
 
 É preciso informar para o **Git**, seu **nome** e **e-mail**, execute o comando em seu terminal:
-  ```bash
+  ```git
     $ git config --global user.name "MEU NOME VAI AQUI"
     $ git config --global user.email "MEU E-MAIL VAI AQUI"
   ```
+## Criando um repositório
+  - Iniciando o Git em um diretório, transformando em um repositório, execute o comando em seu terminal:
+    ```git
+      git init
+    ```
+  - Confirmação de sucesso da criação do repositório deve retornar uma mensagem dessa forma:
+    ```git
+      Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
+    ```
