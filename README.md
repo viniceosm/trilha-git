@@ -165,7 +165,13 @@ $ git rm nome-do-arquivo
 $ git mv nome-arquivo-atual.js nome-do-novo-arquivo.js
 ```
 ## Movendo um arquivo
-  - É possível mover um arquivo dessa forma:
+- É possível mover um arquivo dessa forma:
 ```git
 $ git mv meu-arquivo.js js/meu-arquivo.js
-```   
+```
+## Desfazendo mudanças
+- É possível desfazer dessa forma:
+```git
+$ git checkout -- index.html
+```
+- O comando git checkout desfaz as alterações ainda não adicionas ao stage.
