@@ -164,3 +164,8 @@ $ git rm nome-do-arquivo
 ```git
 $ git mv nome-arquivo-atual.js nome-do-novo-arquivo.js
 ```
+## Movendo um arquivo
+  - É possível mover um arquivo dessa forma:
+```git
+$ git mv meu-arquivo.js js/meu-arquivo.js
+```   
