@@ -194,3 +194,10 @@ $ git revert --no-edit codigo-do-commit
 ```
 - O comando **--no-edit** diz para não abrir um editor de texto para modificar a mensagem do novo commit.
 - Caso não queira passar o código do commit, podemos usar o **HEAD**, apontando para o último commit.
+
+## Voltando a commits anteriores
+- Podemos voltar a commits anteriores dessa forma:
+```git
+$ git reset --hard 1158799
+```
+- Dessa forma é descartado os commits.
