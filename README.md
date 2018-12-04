@@ -175,3 +175,11 @@ $ git mv meu-arquivo.js js/meu-arquivo.js
 $ git checkout -- index.html
 ```
 - O comando git checkout desfaz as alterações ainda não adicionas ao stage.
+
+## Removendo arquivo do stage
+- Podemos apenas remover da área de stege, mantendo as alterações no arquivo dessa forma:
+- É possível desfazer dessa forma:
+```git
+$ git reset -- app.js
+```
+
