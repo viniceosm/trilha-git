@@ -10,7 +10,7 @@
   
 **Mac**
   - Download da ultima versão disponível [aqui](https://git-scm.com/download/mac).
-  - Utiliza o terminal padrão do **Mac**.
+  - Utiliza o terminal padrão do **Mac**.Desfazendo mudanças já comitadas
 
 **Linux**
 - Distribuição baseada em **Debian**, execute o comando em seu terminal:
@@ -48,7 +48,7 @@ $ git init nome-diretorio
   - Confirmação de sucesso da criação do repositório deve retornar uma mensagem dessa forma:
 ```git
 Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
-```
+```Desfazendo mudanças já comitadas
   - Essa mensagem informa que foi inicializado um repositório Git vazio.
   
 ## Verificando alterações
@@ -74,7 +74,7 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
 ## Boas praticas para escrever um commit
   - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
   - Informe uma explicação em alto nível com poucas palavras do que foi feito.
-  - Não faça grandes explicações em comentários de commits.
+  - Não faça grandes explicações em comentários de commits.Desfazendo mudanças já comitadas
   - Sempre vincule cada commit a um issue.
 
 ## Verificando alterações, log de commits
@@ -187,3 +187,10 @@ $ git reset -- app.js
 ```git
 $ git reset --hard
 ```
+## Desfazendo mudanças já comitadas
+- Podemos desfazer mudanças já commitadas dessa forma:
+```git
+$ git revert --no-edit codigo-do-commit
+```
+- O comando **--no-edit** diz para não abrir um editor de texto para modificar a mensagem do novo commit.
+- Caso não queira passar o código do commit, podemos usar o **HEAD**, apontando para o último commit.
