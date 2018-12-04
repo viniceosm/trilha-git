@@ -152,9 +152,15 @@ $ git diff 123abcd..848998
 $ git diff 123abcd~2
 ```
 
-## Removendo um arquivo pelo git
+## Removendo um arquivo
 - Removendo um arquivo pelo git, pelo comando:
 ```git
 $ git rm nome-do-arquivo
 ```
 - Essa ação remove por completo o arquivo.
+
+## Renomeando um arquivo
+- É possível renomear um arquivo dessa forma:
+```git
+$ git mv nome-arquivo-atual.js nome-do-novo-arquivo.js
+```
