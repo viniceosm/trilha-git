@@ -36,7 +36,7 @@ $ git config --global user.name
 $ git config --global user.email
 ```
 
-## Criando um repositório
+## Criando um repositório Local
   - Iniciando o Git em um diretório já existente, transformando em um repositório, execute o comando em seu terminal:
 ```git
 $ git init
@@ -201,3 +201,11 @@ $ git revert --no-edit codigo-do-commit
 $ git reset --hard 1158799
 ```
 - Dessa forma é descartado os commits.
+
+## Criando um repositório remoto
+
+- Para criar um repositório remoto devemos usar o comando **git init**, porém passando o parâmetro **--bare**, dessa forma:
+```git 
+$ git init --bare nome-projeto.git
+```
+- O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), assim não liberando os commits sejam realizados no servidor.
