@@ -213,4 +213,4 @@ $ git reset --hard 1158799
 ```git 
 $ git init --bare nome-projeto.git
 ```
-- O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), assim não liberando os commits realizados no servidor.
+- O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), impedindo que commits sejam efetuados diretamente no servidor.
