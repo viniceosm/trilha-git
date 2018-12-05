@@ -57,7 +57,7 @@ Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git ini
 - Essa mensagem informa que foi inicializado um repositório **Git** vazio.
   
 ## Verificando alterações
-  - Verificando a situação dos arquivos no repositório com o comando:
+  - Verificando a situação dos arquivos no repositório, execute o comando em seu terminal:
 ```git
 $ git status
 ```
