@@ -241,3 +241,8 @@ $ git remote -v
 ```git
 $ git remote rename nome-atual novo-nome
 ```
+## Alterando a URL do repositório remoto
+- Podemos alterar a URL do repositório dessa forma:
+```git
+$ git remote set-url nome-repositorio url-nova
+```
