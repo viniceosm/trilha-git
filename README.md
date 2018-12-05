@@ -80,7 +80,7 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
   - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
   - Informe uma explicação em alto nível com poucas palavras do que foi feito.
   - Não faça grandes explicações em comentários de commits.Desfazendo mudanças já comitadas
-  - Sempre vincule cada commit a um issue.
+  - Sempre vincule cada commit a um issue.$ git remote -v
 
 ## Verificando alterações, log de commits
   - Para ver o log das alterações no repositório, execute o comando em seu terminal:
@@ -140,7 +140,7 @@ $ git commit -am "Descrição do commit"
 - Conseguimos ver as alterações feitas com o comando:
 ```git
 $ git diff
-```
+```$ git remote -v
 - Apenas em programas que não foram rastreados através do **git add**.
   
 - Mostrando diferença dos arquivos na área de stage e a última versão de commit do arquivo:
@@ -232,4 +232,7 @@ $ git remote add meu-app file://192.168.1.1/opt/repositorios/meu-app.git
 ```git
 $ git remote
 ```
-
+- Para mostrar a **url** devemos adicionar o parâmetro **-v**, dessa forma:
+```git
+$ git remote -v
+```
