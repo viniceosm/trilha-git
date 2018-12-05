@@ -289,3 +289,7 @@ $ git pull servidor master
       $ git clone git://192.168.1.1/opt/repositorios/meu-projeto.git
       ```
   - **HTTP/HTTPS**
+    - Para clonar um repositório utilizando o protocolo HTTP ou HTTPS, a URL deve possuir o prefixo http://: ou https://
+      ```git
+      $ git clone http://192.168.1.1/opt/repositorios/moveis-ecologicos.git
+      ```
