@@ -221,10 +221,15 @@ $ git init --bare nome-projeto.git
 
 - Podemos utilizar o comando **$ git remote add** passando o endereço do repositório remoto.
 ```git
-  $ git remote add nome-repositorio-remoto nome-da-url
+$ git remote add nome-repositorio-remoto nome-da-url
 ```
   Outro exemplo:
 ```git
-  $ git remote add meu-app file://192.168.1.1/opt/repositorios/meu-app.git
+$ git remote add meu-app file://192.168.1.1/opt/repositorios/meu-app.git
+```
+## Listando repositórios remotos
+- Para mostrar todos os repositórios remotos adicionados, podemos usar o comando:
+```git
+$ git remote
 ```
 
