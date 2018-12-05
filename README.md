@@ -9,12 +9,12 @@
 
 ## Instalação
 **Windows**
-  - Donwload da ultima versão disponível [aqui](https://gitforwindows.org/).
+  - Donwload da última versão disponível [aqui](https://gitforwindows.org/).
   - A instalação é simples, padrão em todas as instalações em aplicações na plataforma **Windows**.
   - A instalação vem com o **Git Bash**, que permite que seja executado linhas de comandos do **Git no Windows**.
   
 **Mac**
-  - Download da ultima versão disponível [aqui](https://git-scm.com/download/mac).
+  - Download da última versão disponível [aqui](https://git-scm.com/download/mac).
   - Utiliza o terminal padrão do **Mac**.
 
 **Linux**
