@@ -136,7 +136,7 @@ $ git commit -am "Descrição do commit"
 ```
 
 ## Verificando alterações
-
+$ git remote -v
 - Conseguimos ver as alterações feitas com o comando:
 ```git
 $ git diff
@@ -235,4 +235,9 @@ $ git remote
 - Para mostrar a **url** devemos adicionar o parâmetro **-v**, dessa forma:
 ```git
 $ git remote -v
+```
+## Alterando o nome do repositório remoto
+- Podemos alterar o nome do repositório dessa forma: 
+```git
+$ git remote rename nome-atual novo-nome
 ```
