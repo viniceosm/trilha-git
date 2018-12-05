@@ -130,7 +130,7 @@ file://192.168.1.1/opt/repositorios/moveis-ecologicos.gitvez, basta criarmos um 
 ```git
 $ git commit -a -m "Descrição do commit"
 ```
-ou
+ou execute o comando em seu terminal: 
 ```git
 $ git commit -am "Descrição do commit"
 ```
@@ -164,7 +164,7 @@ $ git diff 123abcd~2
 $ git rm nome-do-arquivo
 ```
 - Essa ação remove por completo o arquivo.
-
+ execute o comando em seu terminal: 
 ## Renomeando um arquivo
 - É possível renomear um arquivo dessa forma:
 ```git
@@ -189,7 +189,7 @@ $ git checkout -- index.html
 $ git reset -- app.js
 ```
 ## Removendo arquivo do stage e as alterações
-- Podemos remover os arquivos da área de stage e desfazer as alterações dessa forma:
+- Podemos remover os arquivos da área de stage e desfazer as alterações dessa forma: execute o comando em seu terminal: 
 ```git
 $ git reset --hard
 ```
@@ -243,16 +243,21 @@ $ git remote rename nome-atual novo-nome
 ```
 ## Alterando a URL do repositório remoto
 - Podemos alterar a URL do repositório dessa forma:
-```git
+```git execute o comando em seu terminal: 
 $ git remote set-url nome-repositorio url-nova
 ```
 ## Enviando commits ao repositório remoto
 - Para enviar os commits feito no repositório local para o remoto, podemos usar o comando:
-```git
+```git execute o comando em seu terminal: 
 $ git push nome-repositorio nome-branch
 ```
 ## Clonando o repositório remoto
 - Para clonar um repositório remoto, podemos fazer dessa forma:
 ```git
 $ git clone file://192.168.1.1/opt/repositorios/meu-projeto.git
+```
+## Sincronizando o repositório local
+- Para sincronizar o repositório local com o servidor podemos utilizar o comando **git pull**, execute o comando em seu terminal:
+```git
+$ git pull servidor master
 ```
