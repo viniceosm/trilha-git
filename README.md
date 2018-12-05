@@ -1,4 +1,9 @@
-# Trilha sobre Git
+# Trilha sobre Git 
+
+<p align="center">
+  <a href="https://git-scm.com/" target="_blank"><img src="img/git-logo.png"></a>
+ 
+</p>
 
 **Git** é um sistema de controle de versão de arquivos, com ele podemos desenvolver projetos e compartilhar nossos códigos com diversas pessoas, mantendo o histórico das alterações dos arquivos.
 
