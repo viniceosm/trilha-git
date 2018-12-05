@@ -32,21 +32,21 @@
 $ git config --global user.name "MEU NOME VAI AQUI"
 $ git config --global user.email "MEU E-MAIL VAI AQUI"
 ```
-- Verificando qual **nome** está configurado no Git, execute o comando em seu terminal:
+- Verificando qual **nome** está configurado no **Git**, execute o comando em seu terminal:
 ```git
 $ git config --global user.name
 ```
-- Verificando qual **e-mail** está configurado no Git, execute o comando em seu terminal:
+- Verificando qual **e-mail** está configurado no **Git**, execute o comando em seu terminal:
 ```git
 $ git config --global user.email
 ```
 
 ## Criando um repositório Local
-- Iniciando o Git em um diretório já existente, transformando em um repositório, execute o comando em seu terminal:
+- Iniciando o **Git** em um diretório já existente, transformando em um repositório, execute o comando em seu terminal:
 ```git
 $ git init
 ```
-- Iniciando o Git em um diretório que não existe.
+- Iniciando o **Git** em um diretório que não existe.
 ```git
 $ git init nome-diretorio
 ```
@@ -54,7 +54,7 @@ $ git init nome-diretorio
 ```git
 Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
 ```
-- Essa mensagem informa que foi inicializado um repositório Git vazio.
+- Essa mensagem informa que foi inicializado um repositório **Git** vazio.
   
 ## Verificando alterações
   - Verificando a situação dos arquivos no repositório com o comando:
@@ -79,8 +79,8 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
 ## Boas praticas para escrever um commit
   - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
   - Informe uma explicação em alto nível com poucas palavras do que foi feito.
-  - Não faça grandes explicações em comentários de commits.Desfazendo mudanças já comitadas
-  - Sempre vincule cada commit a um issue.
+  - Não faça grandes explicações em comentários de commits.
+  - Sempre vincule cada commit a um **issue**.
 
 ## Verificando alterações, log de commits
   - Para ver o log das alterações no repositório, execute o comando em seu terminal:
