@@ -251,4 +251,9 @@ $ git remote set-url nome-repositorio url-nova
 ```git
 $ git push nome-repositorio nome-branch
 ```
-
+## Clonando o repositório remoto
+- Para clonar um repositório remoto, podemos fazer dessa forma:
+```git
+$ git clone file://192.168.1.1/opt/repositorios/
+meu-projeto.git
+```
