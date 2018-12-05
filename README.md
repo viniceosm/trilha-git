@@ -261,3 +261,9 @@ $ git clone file://192.168.1.1/opt/repositorios/meu-projeto.git
 ```git
 $ git pull servidor master
 ```
+## Protocolos suportados pelo Git
+- O Git suporta quatro protocolos para comunicação e transferência de dados:
+  - **Protocolo local**
+  - **SSH**
+  - **Git**
+  - **HTTP/HTTPS**
