@@ -256,7 +256,11 @@ $ git push nome-repositorio nome-branch
 ```git
 $ git clone file://192.168.1.1/opt/repositorios/meu-projeto.git
 ```
-## Sincronizando o repositório local
+## Sincronizando o repositório local```git
+270
+      $ git clone file:// url-do-repositorio
+271
+      ```
 - Para sincronizar o repositório local com o servidor podemos utilizar o comando **git pull**, execute o comando em seu terminal:
 ```git
 $ git pull servidor master
@@ -266,10 +270,13 @@ $ git pull servidor master
   - **Protocolo local**
     - Pode ser usando caso o remoto está no mesmo computador ou em outro computador que esteja conectado na mesma rede.
     - Necessita usar o prefixo **file://** na URL ao ser clonado.
-    ```git
-    $ git clone file:// url-do-repositorio
-    ```
+      ```git
+      $ git clone file:// url-do-repositorio
+      ```
     - Podemos omitir o **file://** na url, informando apenas o caminho do repositório.
+      ```git
+      $ git clone url-do-repositorio
+      ```
   - **SSH**
   - **Git**
   - **HTTP/HTTPS**
