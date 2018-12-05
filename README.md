@@ -246,3 +246,9 @@ $ git remote rename nome-atual novo-nome
 ```git
 $ git remote set-url nome-repositorio url-nova
 ```
+## Enviando commits ao repositório remoto
+- Para enviar os commits feito no repositório local para o remoto, podemos usar o comando:
+```git
+$ git push nome-repositorio nome-branch
+```
+
