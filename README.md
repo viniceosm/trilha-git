@@ -61,7 +61,7 @@ Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git ini
 ```git
 $ git status
 ```
-  - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo. 
+  - **git status** informa em uma lista, caso te git clone file:// url-do-repositorio nha alterado, adicionado ou removido um arquivo. 
   
 ## Adicionando o arquivo no rastreamento 
   - Adicionando o arquivo no rastreamento e preparando ele para commitar, execute o comando em seu terminal:
@@ -90,7 +90,7 @@ $ git log
   - Limitando a visualização de **logs**, mostrando os ultimos dois commits, execute o comando em seu terminal:
 
 ```git
-$ git log -n 2  
+$ git log -n 2   git clone file:// url-do-repositorio 
 ```
   - Trazendo um resumo reduzido dos commits, execute o comando em seu terminal:
 ```git
@@ -256,11 +256,7 @@ $ git push nome-repositorio nome-branch
 ```git
 $ git clone file://192.168.1.1/opt/repositorios/meu-projeto.git
 ```
-## Sincronizando o repositório local```git
-270
-      $ git clone file:// url-do-repositorio
-271
-      ```
+## Sincronizando o repositório local
 - Para sincronizar o repositório local com o servidor podemos utilizar o comando **git pull**, execute o comando em seu terminal:
 ```git
 $ git pull servidor master
