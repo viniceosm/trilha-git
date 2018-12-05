@@ -121,7 +121,8 @@ $ git clone https://caminho-do-repositorio
   - Pode ser **http**, **https** e **ssh**.
   
 ## Ignorar arquivos
-  - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamdo .gitignore no diretório principal e colocar os nomes de arquivos e pastas dentro do mesmo.
+  - Caso não queira comitar certos arquivos toda git remote add servidor
+file://192.168.1.1/opt/repositorios/moveis-ecologicos.gitvez, basta criarmos um arquivo chamdo .gitignore no diretório principal e colocar os nomes de arquivos e pastas dentro do mesmo.
   - [Exemplos de .gitignore](https://github.com/github/gitignore)
 
 ## git add & git commit 
@@ -219,3 +220,11 @@ $ git init --bare nome-projeto.git
 - Para enviar os commits realizado no respositório local para o repositório remoto, precisamos indicar ao Git onde está localizado o repositório remoto.
 
 - Podemos utilizar o comando **$ git remote add** passando o endereço do repositório remoto.
+```git
+  $ git remote add nome-repositorio-remoto nome-da-url
+```
+  Outro exemplo:
+```git
+  $ git remote add meu-app file://192.168.1.1/opt/repositorios/meu-app.git
+```
+
