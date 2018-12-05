@@ -46,7 +46,7 @@ $ git config --global user.email
 ```git
 $ git init
 ```
-- Iniciando o **Git** em um diretório que não existe.
+- Iniciando o **Git** em um diretório que não existe, execute o comando em seu terminal:
 ```git
 $ git init nome-diretorio
 ```
