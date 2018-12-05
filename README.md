@@ -29,8 +29,8 @@
 
 - É preciso informar para o **Git**, seu **nome** e **e-mail**, execute o comando em seu terminal:
 ```git
-$ git config --global user.name "MEU NOME VAI AQUI"
-$ git config --global user.email "MEU E-MAIL VAI AQUI"
+$ git config --global user.name "MEU NOME"
+$ git config --global user.email "MEU E-MAIL"
 ```
 - Verificando qual **nome** está configurado no **Git**, execute o comando em seu terminal:
 ```git
