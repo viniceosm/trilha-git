@@ -1,7 +1,7 @@
 # Trilha sobre Git 
 
 <p align="center">
-  <a href="https://git-scm.com/" target="_blank"><img src="img/git-logo.png"></a>
+  <a href="https://git-scm.com/"><img src="img/logo-git.png" height="200" width="200"></a>
  
 </p>
 
