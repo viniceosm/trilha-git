@@ -264,6 +264,12 @@ $ git pull servidor master
 ## Protocolos suportados pelo Git
 - O Git suporta quatro protocolos para comunicação e transferência de dados:
   - **Protocolo local**
+    - Pode ser usando caso o remoto está no mesmo computador ou em outro computador que esteja conectado na mesma rede.
+    - Necessita usar o prefixo **file://** na URL ao ser clonado.
+    ```git
+    $ git clone file:// url-do-repositorio
+    ```
+    - Podemos omitir o **file://** na url, informando apenas o caminho do repositório.
   - **SSH**
   - **Git**
   - **HTTP/HTTPS**
