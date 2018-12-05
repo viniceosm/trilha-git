@@ -214,3 +214,8 @@ $ git reset --hard 1158799
 $ git init --bare nome-projeto.git
 ```
 - O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), impedindo que commits sejam efetuados diretamente no servidor.
+
+## Adicionando o repositório remoto
+- Para enviar os commits realizado no respositório local para o repositório remoto, precisamos indicar ao Git onde está localizado o repositório remoto.
+
+- Podemos utilizar o comando **$ git remote add** passando o endereço do repositório remoto.
