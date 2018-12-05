@@ -10,7 +10,7 @@
   
 **Mac**
   - Download da ultima versão disponível [aqui](https://git-scm.com/download/mac).
-  - Utiliza o terminal padrão do **Mac**.
+  - Utiliza o terminal padrão do **Mac**.Desfazendo mudanças já comitadas
 
 **Linux**
 - Distribuição baseada em **Debian**, execute o comando em seu terminal:
@@ -36,7 +36,7 @@ $ git config --global user.name
 $ git config --global user.email
 ```
 
-## Criando um repositório
+## Criando um repositório Local
   - Iniciando o Git em um diretório já existente, transformando em um repositório, execute o comando em seu terminal:
 ```git
 $ git init
@@ -48,7 +48,7 @@ $ git init nome-diretorio
   - Confirmação de sucesso da criação do repositório deve retornar uma mensagem dessa forma:
 ```git
 Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
-```
+```Desfazendo mudanças já comitadas
   - Essa mensagem informa que foi inicializado um repositório Git vazio.
   
 ## Verificando alterações
@@ -74,7 +74,7 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
 ## Boas praticas para escrever um commit
   - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
   - Informe uma explicação em alto nível com poucas palavras do que foi feito.
-  - Não faça grandes explicações em comentários de commits.
+  - Não faça grandes explicações em comentários de commits.Desfazendo mudanças já comitadas
   - Sempre vincule cada commit a um issue.
 
 ## Verificando alterações, log de commits
@@ -152,9 +152,60 @@ $ git diff 123abcd..848998
 $ git diff 123abcd~2
 ```
 
-## Removendo um arquivo pelo git
+## Removendo um arquivo
 - Removendo um arquivo pelo git, pelo comando:
 ```git
 $ git rm nome-do-arquivo
 ```
 - Essa ação remove por completo o arquivo.
+
+## Renomeando um arquivo
+- É possível renomear um arquivo dessa forma:
+```git
+$ git mv nome-arquivo-atual.js nome-do-novo-arquivo.js
+```
+## Movendo um arquivo
+- É possível mover um arquivo dessa forma:
+```git
+$ git mv meu-arquivo.js js/meu-arquivo.js
+```
+## Desfazendo mudanças
+- É possível desfazer dessa forma:
+```git
+$ git checkout -- index.html
+```
+- O comando git checkout desfaz as alterações ainda não adicionas ao stage.
+
+## Removendo arquivo do stage
+- Podemos apenas remover da área de stege, mantendo as alterações no arquivo dessa forma:
+- É possível desfazer dessa forma:
+```git
+$ git reset -- app.js
+```
+## Removendo arquivo do stage e as alterações
+- Podemos remover os arquivos da área de stage e desfazer as alterações dessa forma:
+```git
+$ git reset --hard
+```
+## Desfazendo mudanças já comitadas
+- Podemos desfazer mudanças já commitadas dessa forma:
+```git
+$ git revert --no-edit codigo-do-commit
+```
+- O comando **--no-edit** diz para não abrir um editor de texto para modificar a mensagem do novo commit.
+- Caso não queira passar o código do commit, podemos usar o **HEAD**, apontando para o último commit.
+
+## Voltando a commits anteriores
+- Podemos voltar a commits anteriores dessa forma:
+```git
+$ git reset --hard 1158799
+```
+- Dessa forma é descartado os commits.
+
+## Criando um repositório remoto
+
+- Para criar um repositório remoto devemos usar o comando **git init**, porém passando o parâmetro **--bare**, dessa forma:
+```git 
+$ git init --bare nome-projeto.git
+```
+- O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), assim não liberando os commits sejam realizados no servidor.
