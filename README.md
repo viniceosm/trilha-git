@@ -285,7 +285,7 @@ $ git pull servidor master
   - **Git**
     - Git possui um protocolo próprio, similar ao SSH, não contém autenticação, e sendo apenas leitura.
     - Para clonar um repositório utlizando o protocolo, usamos o prefixo **git://:**
-    ```git
-    $ git clone git://192.168.1.1/opt/repositorios/meu-projeto.git
-    ```
+      ```git
+      $ git clone git://192.168.1.1/opt/repositorios/meu-projeto.git
+      ```
   - **HTTP/HTTPS**
