@@ -47,7 +47,7 @@ $ git config --global user.email
 $ git init
 ```
 - Iniciando o **Git** em um diretório que não existe, execute o comando em seu terminal:
-```git
+```gitProtocolos suportados pelo Git
 $ git init nome-diretorio
 ```
 - Confirmação de sucesso da criação do repositório deve retornar uma mensagem dessa forma:
@@ -278,5 +278,9 @@ $ git pull servidor master
       $ git clone url-do-repositorio
       ```
   - **SSH**
+    - O uso do protocolo SSH é feito com a URL seguindo o padrão **usuario@servidor:/caminho/repositorio.git**
+      ```git
+      $ git clone root@192.168.1.1:/opt/repositorios/meu-projeto.git
+      ```
   - **Git**
   - **HTTP/HTTPS**
