@@ -23,8 +23,8 @@
 
 - Para instalar em distribuições baseadas em **Debian**, execute o comando em seu terminal:
 
-```bash
-  $ sudo apt-get install git
+```console
+$ sudo apt-get install git
 ```
 
 - [Download para outras distribuições Linux](http://git-scm.com/download/linux)
