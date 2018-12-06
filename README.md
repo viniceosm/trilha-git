@@ -184,7 +184,7 @@ $ git checkout -- index.html
 $ git reset -- app.js
 ```
 ## Removendo arquivo do stage e as alterações
-- Podemos remover os arquivos da área de stage e desfazer as alterações desta forma: execute o comando em seu terminal: 
+- Podemos remover os arquivos da área de stage e desfazer as alterações desta forma:
 ```git
 $ git reset --hard
 ```
