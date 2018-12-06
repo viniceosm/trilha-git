@@ -63,11 +63,11 @@ $ git status
   - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo. 
   
 ## Adicionando o arquivo no rastreamento 
-  - Para adicionar o arquivo no rastreamento e preparar ele para commitar, execute o comando em seu terminal:
+  - Para adicionar o arquivo no rastreamento e preparar ele para comitar, execute o comando em seu terminal:
 ```git
 $ git add nome-do-arquivo-alterado
 ```
-  - Temos o **git add .** ele permite rastrear todos os arquivos modificados e prepará-los para commitar.
+  - Temos o **git add .** ele permite rastrear todos os arquivos modificados e prepará-los para comitar.
   
 ## Gravando e criando um commit
   - Para criar um commit e gravar as mudanças no repositório, execute o comando em seu terminal:
@@ -76,7 +76,7 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
 ```
 
 ## Boas praticas para escrever um commit
-  - Deve-se commitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
+  - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
   - Informe uma explicação em alto nível com poucas palavras do que foi feito.
   - Não faça grandes explicações em comentários de commits.
   - Sempre vincule cada commit a um **issue**.
@@ -119,7 +119,7 @@ $ git clone https://caminho-do-repositorio
   - Pode ser **http**, **https** e **ssh**.
 
 ## Ignorar arquivos
-  - Caso não queira commitar certos arquivos toda vez, basta criarmos um arquivo chamdo **.gitignore** no diretório principal e colocar os nomes de arquivos ou pastas dentro do mesmo.
+  - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamdo **.gitignore** no diretório principal e colocar os nomes de arquivos ou pastas dentro do mesmo.
   - Exemplos de **.gitignore** [clique aqui](https://github.com/github/gitignore)
 
 ## git add & git commit 
