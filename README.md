@@ -336,9 +336,11 @@ foo@bar:~$ git remote set-url nome-repositorio url-nova
 ```
 
 ## Enviando commits ao repositório remoto
+
 - Para enviar os commits feito no repositório local para o remoto, podemos usar o comando:
-```git execute o comando em seu terminal:
-$ git push nome-repositorio nome-branch
+
+```console
+foo@bar:~$ git push nome-repositorio nome-branch
 ```
 
 ## Clonando o repositório remoto
