@@ -244,9 +244,11 @@ foo@bar:~$ checkout -- index.html
 - O comando git checkout desfaz as alterações ainda não adicionas ao stage.
 
 ## Removendo arquivo do stage
+
 - Podemos apenas remover da área de stege e manter as alterações no arquivo desta forma:
-```git
-$ git reset -- app.js
+
+```console
+foo@bar:~$ git reset -- app.js
 ```
 
 ## Removendo arquivo do stage e as alterações
