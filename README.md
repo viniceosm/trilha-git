@@ -135,11 +135,10 @@ $ git commit -am "Descrição do commit"
 ```
 
 ## Verificando alterações
-$ git remote -v
 - Conseguimos ver as alterações feitas com o comando:
 ```git
 $ git diff
-```$ git remote -v
+```
 - Apenas em programas que não foram rastreados através do **git add**.
   
 - Mostrando diferença dos arquivos na área de stage e a última versão de commit do arquivo:
