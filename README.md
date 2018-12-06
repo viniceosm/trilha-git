@@ -76,7 +76,7 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
 ```
 
 ## Boas praticas para escrever um commit
-  - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
+  - Deve-se commitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
   - Informe uma explicação em alto nível com poucas palavras do que foi feito.
   - Não faça grandes explicações em comentários de commits.
   - Sempre vincule cada commit a um **issue**.
@@ -119,7 +119,7 @@ $ git clone https://caminho-do-repositorio
   - Pode ser **http**, **https** e **ssh**.
 
 ## Ignorar arquivos
-  - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamdo **.gitignore** no diretório principal e colocar os nomes de arquivos ou pastas dentro do mesmo.
+  - Caso não queira commitar certos arquivos toda vez, basta criarmos um arquivo chamdo **.gitignore** no diretório principal e colocar os nomes de arquivos ou pastas dentro do mesmo.
   - Exemplos de **.gitignore** [clique aqui](https://github.com/github/gitignore)
 
 ## git add & git commit 
