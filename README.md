@@ -120,7 +120,7 @@ $ git clone https://caminho-do-repositorio
 
 ## Ignorar arquivos
   - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamado **.gitignore** no diretório principal e colocar os nomes de arquivos ou pastas dentro do mesmo.
-  - Exemplos de **.gitignore** [clique aqui](https://github.com/github/gitignore)
+  - Exemplos de **.gitignore** [aqui](https://github.com/github/gitignore)
 
 ## git add & git commit 
   - Podemos fazer **git add** com **git commit** em apenas um comando desta forma:
