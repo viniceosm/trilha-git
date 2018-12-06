@@ -86,7 +86,7 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
 ```git
 $ git log
 ```
-  - Limitando a visualização de **logs**, mostrando os ultimos dois commits, execute o comando em seu terminal:
+  - Limitando a visualização de **logs**, mostrando os últimos dois commits, execute o comando em seu terminal:
 ```git
 $ git log -n 2
 ```
