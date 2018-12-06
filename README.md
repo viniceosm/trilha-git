@@ -234,10 +234,13 @@ foo@bar:~$ git mv meu-arquivo.js js/meu-arquivo.js
 ```
 
 ## Desfazendo mudanças
+
 - É possível desfazer desta forma:
-```git
-$ git checkout -- index.html
+
+```console
+foo@bar:~$ checkout -- index.html
 ```
+
 - O comando git checkout desfaz as alterações ainda não adicionas ao stage.
 
 ## Removendo arquivo do stage
