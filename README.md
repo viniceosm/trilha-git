@@ -306,13 +306,17 @@ foo@bar:~$ git remote add meu-app file://192.168.1.1/opt/repositorios/meu-app.gi
 ```
 
 ## Listando repositórios remotos
+
 - Para mostrar todos os repositórios remotos adicionados, podemos usar o comando:
-```git
-$ git remote
+
+```console
+foo@bar:~$ git remote
 ```
+
 - Para mostrar a **url** devemos adicionar o parâmetro **-v**, desta forma:
-```git
-$ git remote -v
+
+```console
+foo@bar:~$ git remote -v
 ```
 
 ## Alterando o nome do repositório remoto
