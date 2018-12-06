@@ -52,7 +52,7 @@ $ git init nome-diretorio
 ```
 - Confirmação de sucesso da criação do repositório deve retornar uma mensagem dessa forma:
 ```git
-Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git init
+Initialized empty Git repository in CAMINHO-RAIZ-DE-ONDE-FOI-EXECUTADO-O git init
 ```
 - Essa mensagem informa que foi inicializado um repositório **Git** vazio.
   
