@@ -18,7 +18,7 @@
   - Utiliza o terminal padrão do **Mac**.
 
 **Linux**
-- Distribuições baseadas em **Debian**, execute o comando em seu terminal:
+- Para instalar em distribuições baseadas em **Debian**, execute o comando em seu terminal:
   ```bash
     $ sudo apt-get install git
   ```
