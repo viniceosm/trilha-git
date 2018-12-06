@@ -1,4 +1,4 @@
-# Trilha sobre Git 
+# Trilha sobre Git
 
 <p align="center">
   <a href="https://git-scm.com/"><img src="img/logo-git.png" height="200" width="200"></a>
@@ -7,11 +7,13 @@
 **Git** é um sistema de controle de versão de arquivos, com ele podemos desenvolver projetos e compartilhar nossos códigos com diversas pessoas, mantendo o histórico das alterações.
 
 ## Instalação
-**Windows**
+
+### Windows
+
   - [Clique aqui](https://gitforwindows.org/) para realizar o **download** da última versão disponível.
   - A instalação é simples, padrão em todas as instalações na plataforma **Windows**.
   - A instalação vem com o **Git Bash**, que permite que seja executado linhas de comandos do **Git no Windows**.
-  
+
 **Mac**
   - [Clique aqui](https://git-scm.com/download/mac) para realizar o **download** da última versão disponível.
   - Utiliza o terminal padrão do **Mac**.
@@ -54,21 +56,21 @@ $ git init nome-diretorio
 Initialized empty Git repository in CAMINHO-RAIZ-DE-ONDE-FOI-EXECUTADO-O git init
 ```
 - Essa mensagem informa que foi inicializado um repositório **Git** vazio.
-  
+
 ## Verificando alterações
   - Verificando as situações dos arquivos no repositório, execute o comando em seu terminal:
 ```git
 $ git status
 ```
-  - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo. 
-  
-## Adicionando o arquivo no rastreamento 
+  - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo.
+
+## Adicionando o arquivo no rastreamento
   - Para adicionar o arquivo no rastreamento e preparar ele para comitar, execute o comando em seu terminal:
 ```git
 $ git add nome-do-arquivo-alterado
 ```
   - Temos o **git add .** ele permite rastrear todos os arquivos modificados e prepará-los para comitar.
-  
+
 ## Gravando e criando um commit
   - Para criar um commit e gravar as mudanças no repositório, execute o comando em seu terminal:
 ```git
@@ -100,15 +102,15 @@ $ git log --stat
 ```
 
 ## Configurando um repositório remoto
-  - Para adicionar um repositório remoto, execute o comando em seu terminal: 
+  - Para adicionar um repositório remoto, execute o comando em seu terminal:
 ```git
 $ git remote add origin https://caminho-do-repositorio-remoto
 ```
 
 ## Enviando as alterações pro repositório remoto
- - Para enviar os commits pro repositório remoto, execute o comando em seu terminal: 
+ - Para enviar os commits pro repositório remoto, execute o comando em seu terminal:
 ```git
-$ git push origin master 
+$ git push origin master
 ```
 
 ## Obtendo um repositório já existente
@@ -122,12 +124,12 @@ $ git clone https://caminho-do-repositorio
   - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamado **.gitignore** no diretório principal e colocar os nomes de arquivos ou pastas dentro do mesmo.
   - Exemplos de **.gitignore** [aqui](https://github.com/github/gitignore)
 
-## git add & git commit 
+## git add & git commit
   - Podemos fazer **git add** com **git commit** em apenas um comando desta forma:
 ```git
 $ git commit -a -m "Descrição do commit"
 ```
-ou execute o comando em seu terminal: 
+ou execute o comando em seu terminal:
 ```git
 $ git commit -am "Descrição do commit"
 ```
@@ -206,7 +208,7 @@ $ git reset --hard 1158799
 
 ## Criando um repositório remoto
 - Para criar um repositório remoto devemos usar o comando **git init**, porém passando o parâmetro **--bare**, desta forma:
-```git 
+```git
 $ git init --bare nome-projeto.git
 ```
 - O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), impedindo que commits sejam efetuados diretamente no servidor.
@@ -233,20 +235,20 @@ $ git remote -v
 ```
 
 ## Alterando o nome do repositório remoto
-- Podemos alterar o nome do repositório desta forma: 
+- Podemos alterar o nome do repositório desta forma:
 ```git
 $ git remote rename nome-atual novo-nome
 ```
 
 ## Alterando a URL do repositório remoto
 - Podemos alterar a URL do repositório desta forma:
-```git execute o comando em seu terminal: 
+```git execute o comando em seu terminal:
 $ git remote set-url nome-repositorio url-nova
 ```
 
 ## Enviando commits ao repositório remoto
 - Para enviar os commits feito no repositório local para o remoto, podemos usar o comando:
-```git execute o comando em seu terminal: 
+```git execute o comando em seu terminal:
 $ git push nome-repositorio nome-branch
 ```
 
