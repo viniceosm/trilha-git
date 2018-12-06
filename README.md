@@ -102,10 +102,11 @@ foo@bar:~$ git commit -m "Aqui vai a explicação da sua alteração"
 ```
 
 ## Boas praticas para escrever um commit
-  - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
-  - Informe uma explicação em alto nível com poucas palavras do que foi feito.
-  - Não faça grandes explicações em comentários de commits.
-  - Sempre vincule cada commit a um **issue**.
+
+- Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
+- Informe uma explicação em alto nível com poucas palavras do que foi feito.
+- Não faça grandes explicações em comentários de commits.
+- Sempre vincule cada commit a um **issue**.
 
 ## Verificando alterações, log de commits
   - Para ver o **log** das alterações no repositório, execute o comando em seu terminal:
