@@ -201,7 +201,7 @@ $ git revert --no-edit codigo-do-commit
 ```git
 $ git reset --hard 1158799
 ```
-- desta forma é descartado os commits.
+- desta forma é descartado os commits superiores.
 
 ## Criando um repositório remoto
 
