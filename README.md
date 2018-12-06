@@ -109,25 +109,33 @@ foo@bar:~$ git commit -m "Aqui vai a explicação da sua alteração"
 - Sempre vincule cada commit a um **issue**.
 
 ## Verificando alterações, log de commits
-  - Para ver o **log** das alterações no repositório, execute o comando em seu terminal:
-```git
-$ git log
+
+- Para ver o **log** das alterações no repositório, execute o comando em seu terminal:
+
+```console
+foo@bar:~$ git log
 ```
-  - Limitando a visualização de **logs**, mostrando os últimos dois commits, execute o comando em seu terminal:
-```git
-$ git log -n 2
+
+- Limitando a visualização de **logs**, mostrando os últimos dois commits, execute o comando em seu terminal:
+
+```console
+foo@bar:~$ git log -n 2
 ```
-  - Trazendo um resumo reduzido dos commits, execute o comando em seu terminal:
-```git
-$ git log --oneline
+
+- Trazendo um resumo reduzido dos commits, execute o comando em seu terminal:
+
+```console
+foo@bar:~$ git log --oneline
 ```
+
 - Mostrando resumo dos arquivos com o número de linhas adicionadas e removidas, execute o comando em seu terminal:
-```git
-$ git log --stat
+
+```console
+foo@bar:~$ git log --stat
 ```
 
 ## Configurando um repositório remoto
-  - Para adicionar um repositório remoto, execute o comando em seu terminal:
+- Para adicionar um repositório remoto, execute o comando em seu terminal:
 ```git
 $ git remote add origin https://caminho-do-repositorio-remoto
 ```
