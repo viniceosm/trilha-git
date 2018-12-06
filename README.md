@@ -143,9 +143,11 @@ foo@bar:~$ git remote add origin https://caminho-do-repositorio-remoto
 ```
 
 ## Enviando as alterações pro repositório remoto
- - Para enviar os commits pro repositório remoto, execute o comando em seu terminal:
-```git
-$ git push origin master
+
+- Para enviar os commits pro repositório remoto, execute o comando em seu terminal:
+
+```console
+foo@bar:~$ git push origin master
 ```
 
 ## Obtendo um repositório já existente
