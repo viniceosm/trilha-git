@@ -2,7 +2,6 @@
 
 <p align="center">
   <a href="https://git-scm.com/"><img src="img/logo-git.png" height="200" width="200"></a>
- 
 </p>
 
 **Git** é um sistema de controle de versão de arquivos, com ele podemos desenvolver projetos e compartilhar nossos códigos com diversas pessoas, mantendo o histórico das alterações.
@@ -75,7 +74,7 @@ $ git add nome-do-arquivo-alterado
 ```git
 $ git commit -m "Aqui vai a explicação da sua alteração"
 ```
-  
+
 ## Boas praticas para escrever um commit
   - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
   - Informe uma explicação em alto nível com poucas palavras do que foi feito.
@@ -88,7 +87,6 @@ $ git commit -m "Aqui vai a explicação da sua alteração"
 $ git log
 ```
   - Limitando a visualização de **logs**, mostrando os ultimos dois commits, execute o comando em seu terminal:
-
 ```git
 $ git log -n 2
 ```
@@ -119,7 +117,7 @@ $ git push origin master
 $ git clone https://caminho-do-repositorio
 ```
   - Pode ser **http**, **https** e **ssh**.
-  
+
 ## Ignorar arquivos
   - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamdo **.gitignore** no diretório principal e colocar os nomes de arquivos ou pastas dentro do mesmo.
   - Exemplos de **.gitignore** [clique aqui](https://github.com/github/gitignore)
@@ -150,27 +148,30 @@ $ git diff -staged
 $ git diff 123abcd..848998
 ```
 - Os dois pontos **(..)** significa do commit inicial no caso **123abcd** até o commit **848998**.
-
 - Para mostrar as mudanças do commit **123abcd** em relação aos dois commits anteriores, usamos o prefixo **~2** ao final do código do commit, desta forma:
 ```git
 $ git diff 123abcd~2
 ```
+
 ## Removendo um arquivo
 - Removendo um arquivo pelo **Git**, pelo comando:
 ```git
 $ git rm nome-do-arquivo
 ```
 - Essa ação remove por completo o arquivo.
+
 ## Renomeando um arquivo
 - É possível renomear um arquivo desta forma:
 ```git
 $ git mv nome-arquivo-atual.js nome-do-novo-arquivo.js
 ```
+
 ## Movendo um arquivo
 - É possível mover um arquivo desta forma:
 ```git
 $ git mv meu-arquivo.js js/meu-arquivo.js
 ```
+
 ## Desfazendo mudanças
 - É possível desfazer desta forma:
 ```git
@@ -183,11 +184,13 @@ $ git checkout -- index.html
 ```git
 $ git reset -- app.js
 ```
+
 ## Removendo arquivo do stage e as alterações
 - Podemos remover os arquivos da área de stage e desfazer as alterações desta forma:
 ```git
 $ git reset --hard
 ```
+
 ## Desfazendo mudanças já comitadas
 - Podemos desfazer mudanças já commitadas desta forma:
 ```git
@@ -204,7 +207,6 @@ $ git reset --hard 1158799
 - desta forma é descartado os commits superiores.
 
 ## Criando um repositório remoto
-
 - Para criar um repositório remoto devemos usar o comando **git init**, porém passando o parâmetro **--bare**, desta forma:
 ```git 
 $ git init --bare nome-projeto.git
@@ -213,7 +215,6 @@ $ git init --bare nome-projeto.git
 
 ## Adicionando o repositório remoto
 - Para enviar os commits realizado no respositório local para o repositório remoto, precisamos indicar ao Git onde está localizado o repositório remoto.
-
 - Podemos utilizar o comando **$ git remote add** passando o endereço do repositório remoto.
 ```git
 $ git remote add nome-repositorio-remoto nome-da-url
@@ -222,6 +223,7 @@ $ git remote add nome-repositorio-remoto nome-da-url
 ```git
 $ git remote add meu-app file://192.168.1.1/opt/repositorios/meu-app.git
 ```
+
 ## Listando repositórios remotos
 - Para mostrar todos os repositórios remotos adicionados, podemos usar o comando:
 ```git
@@ -231,31 +233,37 @@ $ git remote
 ```git
 $ git remote -v
 ```
+
 ## Alterando o nome do repositório remoto
 - Podemos alterar o nome do repositório desta forma: 
 ```git
 $ git remote rename nome-atual novo-nome
 ```
+
 ## Alterando a URL do repositório remoto
 - Podemos alterar a URL do repositório desta forma:
 ```git execute o comando em seu terminal: 
 $ git remote set-url nome-repositorio url-nova
 ```
+
 ## Enviando commits ao repositório remoto
 - Para enviar os commits feito no repositório local para o remoto, podemos usar o comando:
 ```git execute o comando em seu terminal: 
 $ git push nome-repositorio nome-branch
 ```
+
 ## Clonando o repositório remoto
 - Para clonar um repositório remoto, podemos fazer desta forma:
 ```git
 $ git clone file://192.168.1.1/opt/repositorios/meu-projeto.git
 ```
+
 ## Sincronizando o repositório local
 - Para sincronizar o repositório local com o servidor podemos utilizar o comando **git pull**, execute o comando em seu terminal:
 ```git
 $ git pull servidor master
 ```
+
 ## Protocolos suportados pelo Git
 - O Git suporta quatro protocolos para comunicação e transferência de dados:
   - **Protocolo local**
