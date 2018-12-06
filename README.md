@@ -135,9 +135,11 @@ foo@bar:~$ git log --stat
 ```
 
 ## Configurando um repositório remoto
+
 - Para adicionar um repositório remoto, execute o comando em seu terminal:
-```git
-$ git remote add origin https://caminho-do-repositorio-remoto
+
+```console
+foo@bar:~$ git remote add origin https://caminho-do-repositorio-remoto
 ```
 
 ## Enviando as alterações pro repositório remoto
