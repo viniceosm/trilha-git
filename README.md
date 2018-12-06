@@ -133,12 +133,10 @@ $ git commit -am "Descrição do commit"
 ```
 
 ## Verificando alterações
-- Conseguimos ver as alterações feitas com o comando:
+- Conseguimos ver as alterações feitas apenas em programas que não foram rastreados através do **git add** com o comando:
 ```git
 $ git diff
 ```
-- Apenas em programas que não foram rastreados através do **git add**.
-  
 - Mostrando diferença dos arquivos na área de stage e a última versão de commit do arquivo:
 ```git
 $ git diff -staged
