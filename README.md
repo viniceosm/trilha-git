@@ -360,30 +360,31 @@ foo@bar:~ git pull servidor master
 ```
 
 ## Protocolos suportados pelo Git
+
 - O Git suporta quatro protocolos para comunicação e transferência de dados:
   - **Protocolo local**
     - Pode ser usando caso o remoto está no mesmo computador ou em outro computador que esteja conectado na mesma rede.
     - Necessita usar o prefixo **file://** na URL ao ser clonado.
-      ```git
-      $ git clone file:// url-do-repositorio
+      ```console
+      foo@bar:~$ git clone file:// url-do-repositorio
       ```
     - Podemos omitir o **file://** na url, informando apenas o caminho do repositório.
-      ```git
-      $ git clone url-do-repositorio
+      ```console
+      foo@bar:~$ git clone url-do-repositorio
       ```
   - **SSH**
     - O uso do protocolo SSH é feito com a URL seguindo o padrão **usuario@servidor:/caminho/repositorio.git**
-      ```git
-      $ git clone root@192.168.1.1:/opt/repositorios/meu-projeto.git
+      ```console
+      foo@bar:~$ git clone root@192.168.1.1:/opt/repositorios/meu-projeto.git
       ```
   - **Git**
     - Git possui um protocolo próprio, similar ao SSH, não contém autenticação, e sendo apenas leitura.
     - Para clonar um repositório utlizando o protocolo, usamos o prefixo **git://:**
-      ```git
-      $ git clone git://192.168.1.1/opt/repositorios/meu-projeto.git
+      ```console
+      foo@bar:~$ git clone git://192.168.1.1/opt/repositorios/meu-projeto.git
       ```
   - **HTTP/HTTPS**
     - Para clonar um repositório utilizando o protocolo HTTP ou HTTPS, a URL deve possuir o prefixo http://: ou https://
-      ```git
-      $ git clone http://192.168.1.1/opt/repositorios/moveis-ecologicos.git
+      ```console
+      foo@bar:~$ git clone http://192.168.1.1/opt/repositorios/moveis-ecologicos.git
       ```
