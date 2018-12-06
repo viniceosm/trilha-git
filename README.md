@@ -166,13 +166,17 @@ foo@bar:~$ git clone https://caminho-do-repositorio
 - Exemplos de **.gitignore** [aqui](https://github.com/github/gitignore)
 
 ## git add & git commit
-  - Podemos fazer **git add** com **git commit** em apenas um comando desta forma:
-```git
-$ git commit -a -m "Descrição do commit"
+
+- Podemos fazer **git add** com **git commit** em apenas um comando desta forma:
+
+```console
+foo@bar:~$ git commit -a -m "Descrição do commit"
 ```
+
 ou execute o comando em seu terminal:
-```git
-$ git commit -am "Descrição do commit"
+
+```console
+foo@bar:~$ git commit -am "Descrição do commit"
 ```
 
 ## Verificando alterações
