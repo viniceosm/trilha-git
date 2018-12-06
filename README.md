@@ -208,10 +208,13 @@ foo@bar:~$ git diff 123abcd~2
 ```
 
 ## Removendo um arquivo
+
 - Removendo um arquivo pelo **Git**, pelo comando:
-```git
-$ git rm nome-do-arquivo
+
+```console
+foo@bar:~$ git rm nome-do-arquivo
 ```
+
 - Essa ação remove por completo o arquivo.
 
 ## Renomeando um arquivo
