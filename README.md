@@ -10,19 +10,23 @@
 
 ### Windows
 
-  - [Clique aqui](https://gitforwindows.org/) para realizar o **download** da última versão disponível.
-  - A instalação é simples, padrão em todas as instalações na plataforma **Windows**.
-  - A instalação vem com o **Git Bash**, que permite que seja executado linhas de comandos do **Git no Windows**.
+- [Clique aqui](https://gitforwindows.org/) para realizar o **download** da última versão disponível.
+- A instalação é simples, padrão em todas as instalações na plataforma **Windows**.
+- A instalação vem com o **Git Bash**, que permite que seja executado linhas de comandos do **Git no Windows**.
 
-**Mac**
-  - [Clique aqui](https://git-scm.com/download/mac) para realizar o **download** da última versão disponível.
-  - Utiliza o terminal padrão do **Mac**.
+### Mac
 
-**Linux**
+- [Clique aqui](https://git-scm.com/download/mac) para realizar o **download** da última versão disponível.
+- Utiliza o terminal padrão do **Mac**.
+
+### Linux
+
 - Para instalar em distribuições baseadas em **Debian**, execute o comando em seu terminal:
-  ```bash
-    $ sudo apt-get install git
-  ```
+
+```bash
+  $ sudo apt-get install git
+```
+
 - [Download para outras distribuições Linux](http://git-scm.com/download/linux)
 - Utiliza o terminal padrão do **Linux**.
 
