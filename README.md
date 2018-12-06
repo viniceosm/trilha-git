@@ -218,9 +218,11 @@ foo@bar:~$ git rm nome-do-arquivo
 - Essa ação remove por completo o arquivo.
 
 ## Renomeando um arquivo
+
 - É possível renomear um arquivo desta forma:
-```git
-$ git mv nome-arquivo-atual.js nome-do-novo-arquivo.js
+
+```console
+foo@bar:~$ git mv nome-arquivo-atual.js nome-do-novo-arquivo.js
 ```
 
 ## Movendo um arquivo
