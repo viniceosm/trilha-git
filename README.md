@@ -320,9 +320,11 @@ foo@bar:~$ git remote -v
 ```
 
 ## Alterando o nome do repositório remoto
+
 - Podemos alterar o nome do repositório desta forma:
-```git
-$ git remote rename nome-atual novo-nome
+
+```console
+foo@bar:~$ git remote rename nome-atual novo-nome
 ```
 
 ## Alterando a URL do repositório remoto
