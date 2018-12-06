@@ -57,11 +57,11 @@ Initialized empty Git repository in CAMINHO RAIZ DE ONDE FOI EXECUTADO O git ini
 - Essa mensagem informa que foi inicializado um repositório **Git** vazio.
   
 ## Verificando alterações
-  - Verificando a situação dos arquivos no repositório, execute o comando em seu terminal:
+  - Verificando as situações dos arquivos no repositório, execute o comando em seu terminal:
 ```git
 $ git status
 ```
-  - **git status** informa em uma lista, caso te git clone file:// url-do-repositorio nha alterado, adicionado ou removido um arquivo. 
+  - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo. 
   
 ## Adicionando o arquivo no rastreamento 
   - Adicionando o arquivo no rastreamento e preparando ele para commitar, execute o comando em seu terminal:
