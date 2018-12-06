@@ -73,7 +73,7 @@ Initialized empty Git repository in CAMINHO-RAIZ-DE-ONDE-FOI-EXECUTADO-O git ini
 
 - Essa mensagem informa que foi inicializado um repositório **Git** vazio.
 
-## Verificando alterações
+## Verificando situação do repositório
 
 - Verificando as situações dos arquivos no repositório, execute o comando em seu terminal:
 
@@ -179,23 +179,32 @@ ou execute o comando em seu terminal:
 foo@bar:~$ git commit -am "Descrição do commit"
 ```
 
-## Verificando alterações
+## Verificando alterações dos arquivos
+
 - Conseguimos ver as alterações feitas apenas em programas que não foram rastreados através do **git add** com o comando:
-```git
-$ git diff
+
+```console
+foo@bar:~$ git diff
 ```
+
 - Mostrando diferença dos arquivos na área de stage e a última versão de commit do arquivo:
-```git
-$ git diff -staged
+
+```console
+foo@bar:~$ git diff -staged
 ```
+
 - É possível ver o **diff** do commit pelo seu código, conforme exemplo:
-```git
-$ git diff 123abcd..848998
+
+```console
+foo@bar:~$ git diff 123abcd..848998
 ```
+
 - Os dois pontos **(..)** significa do commit inicial no caso **123abcd** até o commit **848998**.
+
 - Para mostrar as mudanças do commit **123abcd** em relação aos dois commits anteriores, usamos o prefixo **~2** ao final do código do commit, desta forma:
-```git
-$ git diff 123abcd~2
+
+```console
+foo@bar:~$ git diff 123abcd~2
 ```
 
 ## Removendo um arquivo
