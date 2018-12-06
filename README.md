@@ -21,7 +21,7 @@
   ```bash
     $ sudo apt-get install git
   ```
-- [Donwload para outras distribuições Linux](http://git-scm.com/download/linux)
+- [Download para outras distribuições Linux](http://git-scm.com/download/linux)
 - Utiliza o terminal padrão do **Linux**.
 
 ## Configuração inicial
