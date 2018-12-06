@@ -32,11 +32,11 @@
 $ git config --global user.name "MEU NOME"
 $ git config --global user.email "MEU E-MAIL"
 ```
-- Verificando qual **nome** está configurado no **Git**, execute o comando em seu terminal:
+- Para sabermos qual **nome** está configurado no **Git**, execute o comando em seu terminal:
 ```git
 $ git config --global user.name
 ```
-- Verificando qual **e-mail** está configurado no **Git**, execute o comando em seu terminal:
+- Para sabermos qual **e-mail** está configurado no **Git**, execute o comando em seu terminal:
 ```git
 $ git config --global user.email
 ```
