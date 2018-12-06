@@ -90,7 +90,7 @@ $ git log
   - Limitando a visualização de **logs**, mostrando os ultimos dois commits, execute o comando em seu terminal:
 
 ```git
-$ git log -n 2   git clone file:// url-do-repositorio 
+$ git log -n 2
 ```
   - Trazendo um resumo reduzido dos commits, execute o comando em seu terminal:
 ```git
