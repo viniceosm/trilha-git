@@ -155,14 +155,12 @@ $ git diff 123abcd..848998
 ```git
 $ git diff 123abcd~2
 ```
-
 ## Removendo um arquivo
 - Removendo um arquivo pelo **Git**, pelo comando:
 ```git
 $ git rm nome-do-arquivo
 ```
 - Essa ação remove por completo o arquivo.
- execute o comando em seu terminal: 
 ## Renomeando um arquivo
 - É possível renomear um arquivo desta forma:
 ```git
