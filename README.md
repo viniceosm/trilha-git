@@ -344,15 +344,19 @@ foo@bar:~$ git push nome-repositorio nome-branch
 ```
 
 ## Clonando o repositório remoto
+
 - Para clonar um repositório remoto, podemos fazer desta forma:
-```git
-$ git clone file://192.168.1.1/opt/repositorios/meu-projeto.git
+
+```console
+foo@bar:~ git clone file://192.168.1.1/opt/repositorios/meu-projeto.git
 ```
 
 ## Sincronizando o repositório local
+
 - Para sincronizar o repositório local com o servidor podemos utilizar o comando **git pull**, execute o comando em seu terminal:
-```git
-$ git pull servidor master
+
+```console
+foo@bar:~ git pull servidor master
 ```
 
 ## Protocolos suportados pelo Git
