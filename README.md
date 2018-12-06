@@ -121,8 +121,7 @@ $ git clone https://caminho-do-repositorio
   - Pode ser **http**, **https** e **ssh**.
   
 ## Ignorar arquivos
-  - Caso não queira comitar certos arquivos toda git remote add servidor
-file://192.168.1.1/opt/repositorios/moveis-ecologicos.gitvez, basta criarmos um arquivo chamdo .gitignore no diretório principal e colocar os nomes de arquivos e pastas dentro do mesmo.
+  - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamdo **.gitignore** no diretório principal e colocar os nomes de arquivos ou pastas dentro do mesmo.
   - [Exemplos de .gitignore](https://github.com/github/gitignore)
 
 ## git add & git commit 
