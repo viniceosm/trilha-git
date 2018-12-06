@@ -281,10 +281,13 @@ foo@bar:~$ git reset --hard 1158799
 - desta forma é descartado os commits superiores.
 
 ## Criando um repositório remoto
+
 - Para criar um repositório remoto devemos usar o comando **git init**, porém passando o parâmetro **--bare**, desta forma:
-```git
-$ git init --bare nome-projeto.git
+
+```console
+foo@bar:~$ git init --bare nome-projeto.git
 ```
+
 - O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), impedindo que commits sejam efetuados diretamente no servidor.
 
 ## Adicionando o repositório remoto
