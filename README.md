@@ -94,9 +94,11 @@ foo@bar:~$ git add nome-do-arquivo-alterado
 - Temos o **git add .** ele permite rastrear todos os arquivos modificados e prepará-los para comitar.
 
 ## Gravando e criando um commit
-  - Para criar um commit e gravar as mudanças no repositório, execute o comando em seu terminal:
-```git
-$ git commit -m "Aqui vai a explicação da sua alteração"
+
+- Para criar um commit e gravar as mudanças no repositório, execute o comando em seu terminal:
+
+```console
+foo@bar:~$ git commit -m "Aqui vai a explicação da sua alteração"
 ```
 
 ## Boas praticas para escrever um commit
