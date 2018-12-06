@@ -24,7 +24,7 @@
 - Para instalar em distribuições baseadas em **Debian**, execute o comando em seu terminal:
 
 ```console
-$ sudo apt-get install git
+foo@bar:~$ sudo apt-get install git
 ```
 
 - [Download para outras distribuições Linux](http://git-scm.com/download/linux)
@@ -33,17 +33,22 @@ $ sudo apt-get install git
 ## Configuração inicial
 
 - É preciso informar para o **Git**, seu **nome** e **e-mail**, execute o comando em seu terminal:
-```git
-$ git config --global user.name "MEU NOME"
-$ git config --global user.email "MEU E-MAIL"
+
+```console
+foo@bar:~$ git config --global user.name "MEU NOME"
+foo@bar:~$ git config --global user.email "MEU E-MAIL"
 ```
+
 - Para sabermos qual **nome** está configurado no **Git**, execute o comando em seu terminal:
-```git
-$ git config --global user.name
+
+```console
+foo@bar:~$ git config --global user.name
 ```
+
 - Para sabermos qual **e-mail** está configurado no **Git**, execute o comando em seu terminal:
-```git
-$ git config --global user.email
+
+```console
+foo@bar:~$ git config --global user.email
 ```
 
 ## Criando um repositório Local
