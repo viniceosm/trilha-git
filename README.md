@@ -260,10 +260,13 @@ foo@bar:~$ git reset --hard
 ```
 
 ## Desfazendo mudanças já comitadas
+
 - Podemos desfazer mudanças já commitadas desta forma:
-```git
-$ git revert --no-edit codigo-do-commit
+
+```console
+foo@bar:~$ git revert --no-edit codigo-do-commit
 ```
+
 - O comando **--no-edit** diz para não abrir um editor de texto para modificar a mensagem do novo commit.
 - Caso não queira passar o código do commit, podemos usar o **HEAD**, apontando para o último commit.
 
