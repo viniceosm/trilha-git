@@ -271,10 +271,13 @@ foo@bar:~$ git revert --no-edit codigo-do-commit
 - Caso não queira passar o código do commit, podemos usar o **HEAD**, apontando para o último commit.
 
 ## Voltando a commits anteriores
+
 - Podemos voltar a commits anteriores desta forma:
-```git
-$ git reset --hard 1158799
+
+```console
+foo@bar:~$ git reset --hard 1158799
 ```
+
 - desta forma é descartado os commits superiores.
 
 ## Criando um repositório remoto
