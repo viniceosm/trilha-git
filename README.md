@@ -108,7 +108,7 @@ $ git remote add origin https://caminho-do-repositorio-remoto
 ```
 
 ## Enviando as alterações pro repositório remoto
- - Enviando os commits pro repositório remoto, execute o comando em seu terminal: 
+ - Para enviar os commits pro repositório remoto, execute o comando em seu terminal: 
 ```git
 $ git push origin master 
 ```
