@@ -84,11 +84,14 @@ foo@bar:~$ git status
 - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo.
 
 ## Adicionando o arquivo no rastreamento
-  - Para adicionar o arquivo no rastreamento e preparar ele para comitar, execute o comando em seu terminal:
-```git
-$ git add nome-do-arquivo-alterado
+
+- Para adicionar o arquivo no rastreamento e preparar ele para comitar, execute o comando em seu terminal:
+
+```console
+foo@bar:~$ git add nome-do-arquivo-alterado
 ```
-  - Temos o **git add .** ele permite rastrear todos os arquivos modificados e prepará-los para comitar.
+
+- Temos o **git add .** ele permite rastrear todos os arquivos modificados e prepará-los para comitar.
 
 ## Gravando e criando um commit
   - Para criar um commit e gravar as mudanças no repositório, execute o comando em seu terminal:
