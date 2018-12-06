@@ -151,11 +151,14 @@ foo@bar:~$ git push origin master
 ```
 
 ## Obtendo um repositório já existente
-  - Para obter o código do repositório desejado, execute o comando em seu terminal:
-```git
-$ git clone https://caminho-do-repositorio
+
+- Para obter o código do repositório desejado, execute o comando em seu terminal:
+
+```console
+foo@bar:~$ git clone https://caminho-do-repositorio
 ```
-  - Pode ser **http**, **https** e **ssh**.
+
+- Pode ser **http**, **https** e **ssh**.
 
 ## Ignorar arquivos
   - Caso não queira comitar certos arquivos toda vez, basta criarmos um arquivo chamado **.gitignore** no diretório principal e colocar os nomes de arquivos ou pastas dentro do mesmo.
