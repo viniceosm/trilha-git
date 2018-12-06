@@ -56,13 +56,13 @@ foo@bar:~$ git config --global user.email
 - Iniciando o **Git** em um diretório já existente, transformando em um repositório, execute o comando em seu terminal:
 
 ```console
-foo@bar:~$  git init
+foo@bar:~$ git init
 ```
 
 - Iniciando o **Git** em um diretório que não existe, execute o comando em seu terminal:
 
 ```console
-foo@bar:~$  git init nome-diretorio
+foo@bar:~$ git init nome-diretorio
 ```
 
 - Confirmação de sucesso da criação do repositório deve retornar uma mensagem desta forma:
@@ -74,11 +74,14 @@ Initialized empty Git repository in CAMINHO-RAIZ-DE-ONDE-FOI-EXECUTADO-O git ini
 - Essa mensagem informa que foi inicializado um repositório **Git** vazio.
 
 ## Verificando alterações
-  - Verificando as situações dos arquivos no repositório, execute o comando em seu terminal:
-```git
-$ git status
+
+- Verificando as situações dos arquivos no repositório, execute o comando em seu terminal:
+
+```console
+foo@bar:~$ git status
 ```
-  - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo.
+
+- **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo.
 
 ## Adicionando o arquivo no rastreamento
   - Para adicionar o arquivo no rastreamento e preparar ele para comitar, execute o comando em seu terminal:
