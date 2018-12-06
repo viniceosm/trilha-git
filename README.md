@@ -50,7 +50,7 @@ $ git init
 ```gitProtocolos suportados pelo Git
 $ git init nome-diretorio
 ```
-- Confirmação de sucesso da criação do repositório deve retornar uma mensagem dessa forma:
+- Confirmação de sucesso da criação do repositório deve retornar uma mensagem desta forma:
 ```git
 Initialized empty Git repository in CAMINHO-RAIZ-DE-ONDE-FOI-EXECUTADO-O git init
 ```
@@ -125,7 +125,7 @@ $ git clone https://caminho-do-repositorio
   - Exemplos de **.gitignore** [clique aqui](https://github.com/github/gitignore)
 
 ## git add & git commit 
-  - Podemos fazer **git add** com **git commit** em apenas um comando dessa forma:
+  - Podemos fazer **git add** com **git commit** em apenas um comando desta forma:
 ```git
 $ git commit -a -m "Descrição do commit"
 ```
@@ -165,35 +165,35 @@ $ git rm nome-do-arquivo
 - Essa ação remove por completo o arquivo.
  execute o comando em seu terminal: 
 ## Renomeando um arquivo
-- É possível renomear um arquivo dessa forma:
+- É possível renomear um arquivo desta forma:
 ```git
 $ git mv nome-arquivo-atual.js nome-do-novo-arquivo.js
 ```
 ## Movendo um arquivo
-- É possível mover um arquivo dessa forma:
+- É possível mover um arquivo desta forma:
 ```git
 $ git mv meu-arquivo.js js/meu-arquivo.js
 ```
 ## Desfazendo mudanças
-- É possível desfazer dessa forma:
+- É possível desfazer desta forma:
 ```git
 $ git checkout -- index.html
 ```
 - O comando git checkout desfaz as alterações ainda não adicionas ao stage.
 
 ## Removendo arquivo do stage
-- Podemos apenas remover da área de stege, mantendo as alterações no arquivo dessa forma:
-- É possível desfazer dessa forma:
+- Podemos apenas remover da área de stege, mantendo as alterações no arquivo desta forma:
+- É possível desfazer desta forma:
 ```git
 $ git reset -- app.js
 ```
 ## Removendo arquivo do stage e as alterações
-- Podemos remover os arquivos da área de stage e desfazer as alterações dessa forma: execute o comando em seu terminal: 
+- Podemos remover os arquivos da área de stage e desfazer as alterações desta forma: execute o comando em seu terminal: 
 ```git
 $ git reset --hard
 ```
 ## Desfazendo mudanças já comitadas
-- Podemos desfazer mudanças já commitadas dessa forma:
+- Podemos desfazer mudanças já commitadas desta forma:
 ```git
 $ git revert --no-edit codigo-do-commit
 ```
@@ -201,15 +201,15 @@ $ git revert --no-edit codigo-do-commit
 - Caso não queira passar o código do commit, podemos usar o **HEAD**, apontando para o último commit.
 
 ## Voltando a commits anteriores
-- Podemos voltar a commits anteriores dessa forma:
+- Podemos voltar a commits anteriores desta forma:
 ```git
 $ git reset --hard 1158799
 ```
-- Dessa forma é descartado os commits.
+- desta forma é descartado os commits.
 
 ## Criando um repositório remoto
 
-- Para criar um repositório remoto devemos usar o comando **git init**, porém passando o parâmetro **--bare**, dessa forma:
+- Para criar um repositório remoto devemos usar o comando **git init**, porém passando o parâmetro **--bare**, desta forma:
 ```git 
 $ git init --bare nome-projeto.git
 ```
@@ -231,17 +231,17 @@ $ git remote add meu-app file://192.168.1.1/opt/repositorios/meu-app.git
 ```git
 $ git remote
 ```
-- Para mostrar a **url** devemos adicionar o parâmetro **-v**, dessa forma:
+- Para mostrar a **url** devemos adicionar o parâmetro **-v**, desta forma:
 ```git
 $ git remote -v
 ```
 ## Alterando o nome do repositório remoto
-- Podemos alterar o nome do repositório dessa forma: 
+- Podemos alterar o nome do repositório desta forma: 
 ```git
 $ git remote rename nome-atual novo-nome
 ```
 ## Alterando a URL do repositório remoto
-- Podemos alterar a URL do repositório dessa forma:
+- Podemos alterar a URL do repositório desta forma:
 ```git execute o comando em seu terminal: 
 $ git remote set-url nome-repositorio url-nova
 ```
@@ -251,7 +251,7 @@ $ git remote set-url nome-repositorio url-nova
 $ git push nome-repositorio nome-branch
 ```
 ## Clonando o repositório remoto
-- Para clonar um repositório remoto, podemos fazer dessa forma:
+- Para clonar um repositório remoto, podemos fazer desta forma:
 ```git
 $ git clone file://192.168.1.1/opt/repositorios/meu-projeto.git
 ```
