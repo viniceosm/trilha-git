@@ -64,7 +64,7 @@ $ git status
   - **git status** informa em uma lista, caso tenha alterado, adicionado ou removido um arquivo. 
   
 ## Adicionando o arquivo no rastreamento 
-  - Adicionando o arquivo no rastreamento e preparando ele para commitar, execute o comando em seu terminal:
+  - Para adicionar o arquivo no rastreamento e preparar ele para commitar, execute o comando em seu terminal:
 ```git
 $ git add nome-do-arquivo-alterado
 ```
