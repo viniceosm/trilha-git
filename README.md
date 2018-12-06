@@ -199,9 +199,9 @@ foo@bar:~$ git diff -staged
 foo@bar:~$ git diff 123abcd..848998
 ```
 
-- Os dois pontos **(..)** significa do commit inicial no caso **123abcd** até o commit **848998**.
+1. Os dois pontos **(..)** significa do commit inicial no caso **123abcd** até o commit **848998**.
 
-- Para mostrar as mudanças do commit **123abcd** em relação aos dois commits anteriores, usamos o prefixo **~2** ao final do código do commit, desta forma:
+1. Para mostrar as mudanças do commit **123abcd** em relação aos dois commits anteriores, usamos o prefixo **~2** ao final do código do commit, desta forma:
 
 ```console
 foo@bar:~$ git diff 123abcd~2
@@ -215,7 +215,7 @@ foo@bar:~$ git diff 123abcd~2
 foo@bar:~$ git rm nome-do-arquivo
 ```
 
-- Essa ação remove por completo o arquivo.
+Essa ação remove por completo o arquivo.
 
 ## Renomeando um arquivo
 
@@ -241,11 +241,11 @@ foo@bar:~$ git mv meu-arquivo.js js/meu-arquivo.js
 foo@bar:~$ checkout -- index.html
 ```
 
-- O comando git checkout desfaz as alterações ainda não adicionas ao stage.
+O comando git checkout desfaz as alterações ainda não adicionas ao stage.
 
 ## Removendo arquivo do stage
 
-- Podemos apenas remover da área de stege e manter as alterações no arquivo desta forma:
+- Podemos apenas remover da área de stage e manter as alterações no arquivo desta forma:
 
 ```console
 foo@bar:~$ git reset -- app.js
@@ -267,8 +267,8 @@ foo@bar:~$ git reset --hard
 foo@bar:~$ git revert --no-edit codigo-do-commit
 ```
 
-- O comando **--no-edit** diz para não abrir um editor de texto para modificar a mensagem do novo commit.
-- Caso não queira passar o código do commit, podemos usar o **HEAD**, apontando para o último commit.
+1. O comando **--no-edit** diz para não abrir um editor de texto para modificar a mensagem do novo commit.
+1. Caso não queira passar o código do commit, podemos usar o **HEAD**, apontando para o último commit.
 
 ## Voltando a commits anteriores
 
@@ -278,7 +278,7 @@ foo@bar:~$ git revert --no-edit codigo-do-commit
 foo@bar:~$ git reset --hard 1158799
 ```
 
-- desta forma é descartado os commits superiores.
+Desta forma é descartado os commits superiores.
 
 ## Criando um repositório remoto
 
@@ -288,12 +288,12 @@ foo@bar:~$ git reset --hard 1158799
 foo@bar:~$ git init --bare nome-projeto.git
 ```
 
-- O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), impedindo que commits sejam efetuados diretamente no servidor.
+1. O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), impedindo que commits sejam efetuados diretamente no servidor.
 
 ## Adicionando o repositório remoto
 
 - Para enviar os commits realizado no respositório local para o repositório remoto, precisamos indicar ao Git onde está localizado o repositório remoto.
-- Podemos utilizar o comando **$ git remote add** passando o endereço do repositório remoto.
+- Podemos utilizar o comando `$ git remote add` passando o endereço do repositório remoto.
 
 ```console
 foo@bar:~$ git remote add nome-repositorio-remoto nome-da-url
@@ -337,7 +337,7 @@ foo@bar:~$ git remote set-url nome-repositorio url-nova
 
 ## Enviando commits ao repositório remoto
 
-- Para enviar os commits feito no repositório local para o remoto, podemos usar o comando:
+- Para enviar os commits feitos no repositório local para o remoto, podemos usar o comando:
 
 ```console
 foo@bar:~$ git push nome-repositorio nome-branch
@@ -353,7 +353,7 @@ foo@bar:~ git clone file://192.168.1.1/opt/repositorios/meu-projeto.git
 
 ## Sincronizando o repositório local
 
-- Para sincronizar o repositório local com o servidor podemos utilizar o comando **git pull**, execute o comando em seu terminal:
+- Para sincronizar o repositório local com o servidor podemos utilizar o comando `git pull`, execute o comando em seu terminal:
 
 ```console
 foo@bar:~ git pull servidor master
@@ -363,10 +363,10 @@ foo@bar:~ git pull servidor master
 
 - O Git suporta quatro protocolos para comunicação e transferência de dados:
   - **Protocolo local**
-    - Pode ser usando caso o remoto está no mesmo computador ou em outro computador que esteja conectado na mesma rede.
+    - Pode ser usado caso o remoto está no mesmo computador ou em outro computador que esteja conectado na mesma rede.
     - Necessita usar o prefixo **file://** na URL ao ser clonado.
       ```console
-      foo@bar:~$ git clone file:// url-do-repositorio
+      foo@bar:~$ git clone file://url-do-repositorio
       ```
     - Podemos omitir o **file://** na url, informando apenas o caminho do repositório.
       ```console
@@ -384,7 +384,13 @@ foo@bar:~ git pull servidor master
       foo@bar:~$ git clone git://192.168.1.1/opt/repositorios/meu-projeto.git
       ```
   - **HTTP/HTTPS**
-    - Para clonar um repositório utilizando o protocolo HTTP ou HTTPS, a URL deve possuir o prefixo http://: ou https://
+    - Para clonar um repositório utilizando o protocolo HTTP ou HTTPS, a URL deve possuir o prefixo http:// ou https://
       ```console
       foo@bar:~$ git clone http://192.168.1.1/opt/repositorios/moveis-ecologicos.git
       ```
+
+## Contribuidores
+
+| ![chrisdoponalopes](https://avatars3.githubusercontent.com/u/11341197?s=44) | ![viniceosm](https://avatars3.githubusercontent.com/u/16159493?s=44) | 
+|:--:|:--:| 
+| [*chrisdoponalopes*](https://github.com/chrisdoponalopes) | [*viniceosm*](https://github.com/viniceosm) |
