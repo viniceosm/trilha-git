@@ -291,14 +291,18 @@ foo@bar:~$ git init --bare nome-projeto.git
 - O parâmetro **--bare** serve para informar ao Git que não deve criar um **working tree** (diretório de trabalho), impedindo que commits sejam efetuados diretamente no servidor.
 
 ## Adicionando o repositório remoto
+
 - Para enviar os commits realizado no respositório local para o repositório remoto, precisamos indicar ao Git onde está localizado o repositório remoto.
 - Podemos utilizar o comando **$ git remote add** passando o endereço do repositório remoto.
-```git
-$ git remote add nome-repositorio-remoto nome-da-url
+
+```console
+foo@bar:~$ git remote add nome-repositorio-remoto nome-da-url
 ```
-  Outro exemplo:
-```git
-$ git remote add meu-app file://192.168.1.1/opt/repositorios/meu-app.git
+
+Outro exemplo:
+
+```console
+foo@bar:~$ git remote add meu-app file://192.168.1.1/opt/repositorios/meu-app.git
 ```
 
 ## Listando repositórios remotos
