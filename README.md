@@ -101,7 +101,7 @@ foo@bar:~$ git add nome-do-arquivo-alterado
 foo@bar:~$ git commit -m "Aqui vai a explicação da sua alteração"
 ```
 
-## Boas praticas para escrever um commit
+## Boas práticas para escrever um commit
 
 - Deve-se comitar uma funcionalidade por vez, facilita a reverter uma mudança em caso de problemas.
 - Informe uma explicação em alto nível com poucas palavras do que foi feito.
