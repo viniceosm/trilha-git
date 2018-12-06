@@ -52,18 +52,25 @@ foo@bar:~$ git config --global user.email
 ```
 
 ## Criando um repositório Local
+
 - Iniciando o **Git** em um diretório já existente, transformando em um repositório, execute o comando em seu terminal:
-```git
-$ git init
+
+```console
+foo@bar:~$  git init
 ```
+
 - Iniciando o **Git** em um diretório que não existe, execute o comando em seu terminal:
-```gitProtocolos suportados pelo Git
-$ git init nome-diretorio
+
+```console
+foo@bar:~$  git init nome-diretorio
 ```
+
 - Confirmação de sucesso da criação do repositório deve retornar uma mensagem desta forma:
-```git
+
+```console
 Initialized empty Git repository in CAMINHO-RAIZ-DE-ONDE-FOI-EXECUTADO-O git init
 ```
+
 - Essa mensagem informa que foi inicializado um repositório **Git** vazio.
 
 ## Verificando alterações
