@@ -226,9 +226,11 @@ foo@bar:~$ git mv nome-arquivo-atual.js nome-do-novo-arquivo.js
 ```
 
 ## Movendo um arquivo
+
 - É possível mover um arquivo desta forma:
-```git
-$ git mv meu-arquivo.js js/meu-arquivo.js
+
+```console
+foo@bar:~$ git mv meu-arquivo.js js/meu-arquivo.js
 ```
 
 ## Desfazendo mudanças
